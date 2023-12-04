@@ -4,8 +4,6 @@ import pandas as pd
 from tabulate import tabulate
 import scipy.stats as stats
 import matplotlib.pyplot as plt
-import seaborn as sns
-import seaborn.objects as so   # "objects" is a submodule within seaborn, the short hand name for it is so
 import statsmodels.formula.api as smf
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
